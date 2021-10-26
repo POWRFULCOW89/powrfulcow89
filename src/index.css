@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #eee;
+
+  font-size: 18px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradient {
+  /* background: rgb(9,9,121);
+  background: linear-gradient(146deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%); */
+  
+  background: rgb(36,15,172);
+  background: linear-gradient(146deg, rgba(36,15,172,1) 0%, rgba(92,181,231,1) 100%);
+}
