@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="gradient">
+    <div className="bg-dark ">
       <Router >
         <Nav />
         <Switch >
