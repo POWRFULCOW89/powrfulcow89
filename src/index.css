@@ -77,3 +77,62 @@ body {
   border-radius: 50px;
   padding: 10px; */
 }
+
+Switch, .footer {
+  position: 'relative';
+  zIndex: 5;
+}
+
+.svg-container {
+  position: absolute;
+  /* transform: rotateX(180deg); */
+  z-index: 1;
+  /* filter: blur(1px); */
+  /* opacity: 0.75; */
+}
+
+.svg-container > * {
+  width: 100%;
+}
+
+.svg-1 {transform: rotateX(180deg);}
+.svg-2 {
+  position: relative;
+  z-index: 2;
+}
+
+.svg-3 {transform: rotate(180deg);}
+.svg-4 {transform: rotateY(180deg);}
+
+
+.tab-content {
+  /* height: 100%; */
+  /* height: 300px; */
+  width: 100%;
+  flex:1;
+  /* background: rgba(33, 37, 41, 0.8); */
+
+  /* display: flex;
+  justify-content: start; */
+}
+
+.skills {
+  background: rgba(33, 37, 41, 0.8);
+  /* border-radius: 100px; */
+  box-shadow: 0 30px 40px rgba(0,0,0,.1);
+}
+
+.skill-tab img, .skill-tab a {
+  width: 150px;
+  height: 150px;
+  aspect-ratio: 1;
+}
+
+.skill-tab {
+  width: 100%;
+  flex:1;
+  display: grid;
+  /* grid-template-columns: repeat(3, minmax(100px, 1fr)); */
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}

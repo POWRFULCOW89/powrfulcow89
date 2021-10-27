@@ -18,12 +18,12 @@ export default function Footer(){
   // </div>
 
   return (
-    <div className="container">
-      <footer className="row py-3 my-4">
+    <div className="container" style={{zIndex: 5}}>
+      <footer className="row py-3 mt-4">
         <ul className="col list-unstyled d-flex justify-content-center h3">
-          <li class="ms-3"><a class="text-muted" href="#"><i className="fab fa-linkedin-in"></i></a></li>
-          <li class="ms-3"><a class="text-muted" href="#"><i className="fab fa-github"></i></a></li>
-          {/* <li class="ms-3"><a class="text-muted" href="#"><i className="fab fa-linkedin-in"></i></a></li> */}
+          <li className="ms-3 social-button"><a className="text-muted social-button" href="https://github.com/POWRFULCOW89" target="_blank" ><i className="fab fa-linkedin-in"></i></a></li>
+          <li className="ms-3 social-button"><a className="text-muted" href="https://mx.linkedin.com/in/diego-melo-mx" target="_blank" ><i className="fab fa-github"></i></a></li>
+          {/* <li className="ms-3"><a className="text-muted" href="#"><i className="fab fa-linkedin-in"></i></a></li> */}
         </ul>
         {/* <div className="border-bottom mt-3 mb-4" style={{borderColor: 'gray'}}  /> */}
         <div className='divider m-2'  />
