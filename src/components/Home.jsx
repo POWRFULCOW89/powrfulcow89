@@ -1,12 +1,61 @@
 import poly from '../poly.svg';
-// import poly from '../poly2.webp';
+
+import {html, js, py, boolma, mongo, react, firebase, heroku} from '../assets/';
 
 const languages = [
     {
-        name: 'JavaScript',
-        experience: 'Something something',
+        name: 'HTML & CSS',
+        experience: 'Building static and dynamic websites, such as landing pages and ecommerces.',
         time: '2 years',
-        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png'
+        img: html
+    },
+    {
+        name: 'JavaScript',
+        experience: 'Adding functionality to websites, mobile apps and APIs.',
+        time: '2 years',
+        img: js
+    },
+    {
+        name: 'Python',
+        experience: 'Building helper CLI tools and libraries to solve problems.',
+        time: '1 year',
+        img: py
+    }
+];
+
+const technologies = [
+    {
+        name: 'Bootstrap & Bulma',
+        experience: 'Quickly build beautiful sites with the help of CSS frameworks.',
+        time: '1 year',
+        img: boolma
+    },
+    {
+        name: 'MongoDB',
+        experience: 'Adding a persistence layer to data-driven applications.',
+        time: '+6 months',
+        img: mongo
+    }, 
+    {
+        name: 'ReactJS',
+        experience: 'Building rich, dynamic and scalable user interfaces on SPAs.',
+        time: '1 year',
+        img: react
+    }
+]
+
+const platforms = [
+    {
+        name: 'Firebase',
+        experience: 'Creating complex backends with live databases, authentication mechanisms and web hosting.',
+        time: '1 year',
+        img: firebase
+    },
+    {
+        name: 'Heroku',
+        experience: 'Deployment of production-ready projects such as REST APIs and bots.',
+        time: '1 year',
+        img: heroku
     }
 ];
 
@@ -18,16 +67,15 @@ const renderCards = arr => {
                 <div class="card h-100 bg-dark" style={{border: '1px solid #6c757d'}}>
                     <img src={img} class="card-img-top" alt={`${name} logo`} />
                     <div class="card-body">
-                        <h5 class="card-title">{name}</h5>
-                        <p class="card-text">{experience}</p>
+                        <h5 class="card-title fs-3 ">{name}</h5>
+                        <p class="card-text lead">{experience}</p>
                     </div>
                     <div class="card-footer fs-5">
-                        <small class="text-muted">{time}</small>
+                        <small class="text-muted">Experience: {time}</small>
                     </div>
                 </div>
             </div>
-        ))}
-        
+        ))}    
     </div>);
 }
 
@@ -84,41 +132,30 @@ const Home = () => {
                     <div className="col-12 d-flex align-items-start skills" >
                         <div className="col-3 nav flex-column nav-pills me-3 fs-5" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <button className="nav-link active" id="languages-tab" data-bs-toggle="pill" data-bs-target="#languages" type="button" role="tab" aria-controls="languages" aria-selected="true">Languages</button>
-                            <button className="nav-link" id="frameworks" data-bs-toggle="pill" data-bs-target="#Frameworks" type="button" role="tab" aria-controls="frameworks" aria-selected="false">Frameworks</button>
+                            <button className="nav-link" id="techs-tab" data-bs-toggle="pill" data-bs-target="#techs" type="button" role="tab" aria-controls="techs" aria-selected="false">Technologies</button>
+                            <button className="nav-link" id="platforms-tab" data-bs-toggle="pill" data-bs-target="#platforms" type="button" role="tab" aria-controls="platforms" aria-selected="false">Platforms</button>
                             <button className="nav-link" id="tools-tab" data-bs-toggle="pill" data-bs-target="#tools" type="button" role="tab" aria-controls="tools" aria-selected="false">Tools</button>
-                            <button className="nav-link" id="teamwork-tab" data-bs-toggle="pill" data-bs-target="#teamwork" type="button" role="tab" aria-controls="teamwork" aria-selected="false">Teamwork</button>
                         </div>
                         <div className="col-8 tab-content fs-4 " id="v-pills-tabContent">
                             <div className="tab-pane fade show active" id="languages" role="tabpanel" aria-labelledby="languages-tab">
-                                {/* <div className='skill-tab'>
-                                    <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" /> </a> 
-                                    <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" /> </a> 
-
-                                </div> */}
                                 {renderCards(languages)}
                             </div>
-                            <div className="tab-pane fade" id="Frameworks" role="tabpanel" aria-labelledby="frameworks">
-                                <div className='skill-tab'>
-
-                                    <a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" /> </a> 
-                                    <a href="https://bulma.io/" target="_blank"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/804dc257b59e144eaca5bc6ffd16949752c6f789/logos/bulma.svg" alt="bulma" /> </a>   
-                                    {/* <a href="https://firebase.google.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" /> </a>  */}
-                                    {/* <a href="https://heroku.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" /> </a>   */}
-                                    {/* <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" /> </a>   */}
-                                    <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" /> </a> 
-                                    <a href="https://reactnative.dev/" target="_blank"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" /> </a>
-
-                                </div>
+                            <div className="tab-pane fade" id="techs" role="tabpanel" aria-labelledby="techs-tab">
+                                
+                                {renderCards(technologies)}
                             </div>
-                            <div className="tab-pane fade" id="tools" role="tabpanel" aria-labelledby="tools-tab">
-                                <div className='skill-tab'>
+                            <div className="tab-pane fade" id="platforms" role="tabpanel" aria-labelledby="platforms-tab">
+                                {/* <div className='skill-tab'>
 
                                     <a href="https://firebase.google.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" /> </a> 
                                     <a href="https://heroku.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" /> </a>  
 
-                                </div>
+                                </div> */}
+                                {renderCards(platforms)}
                             </div>
-                            <div className="tab-pane fade" id="teamwork" role="tabpanel" aria-labelledby="teamwork-tab">Teamwork</div>
+                            <div className="tab-pane fade" id="tools" role="tabpanel" aria-labelledby="tools-tab">
+                                a
+                            </div>
                         </div>
                     </div>
                 </div>
