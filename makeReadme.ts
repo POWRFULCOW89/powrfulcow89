@@ -17,7 +17,7 @@ const Divider = () => {
 };
 
 const Center = (text: string, style = "") => {
-  return `<div style="margin:1em 0;display:flex;justify-content:center;align-items:center;flex-wrap:wrap;${style}">${text}</div>`;
+  return `<div style="display:flex;justify-content:center;align-items:center;flex-wrap:wrap;${style}">${text}</div>`;
 };
 
 const Techs = () => {
@@ -88,10 +88,10 @@ const finalReadme = [
   Center(Techs(), "margin:10px;"),
   //   Divider(),
   Title("Some random numbers 📊", 3),
-  Center(Widgets("languages") + Widgets("streak")),
+  Center(Widgets("languages") + Widgets("streak"), "flex-direction:column"),
   //   Divider(),
-  Title("A bit of my work 💯", 3),
-  Repos(),
+  // Title("A bit of my work 💯", 3),
+  // Repos(),
 ];
 
 fs.writeFileSync("./README.md", finalReadme.join("\n"));
