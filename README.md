@@ -1,26 +1,30 @@
-<h1 align="center">Hi 👋, I'm Diego</h1>
-<h3 align="center">A hobbyist coder from 🇲🇽</h3>
-
-<div style='width: 100%; border: 1px solid gray'></div>
-
-<h3 align="center">Techs I use</h3>
-<p align="center"> <a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://bulma.io/" target="_blank"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/804dc257b59e144eaca5bc6ffd16949752c6f789/logos/bulma.svg" alt="bulma" width="40" height="40"/> </a>   <a href="https://firebase.google.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a>  <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>  <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a>   </p>
-
-<h3 align="center">I wanna learn</h3>
-<p align="center"><a href="https://www.docker.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
-<a href="https://www.electronjs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" alt="electron" width="40" height="40"/> </a>
-<a href="https://www.gatsbyjs.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/gatsbyjs/gatsbyjs-icon.svg" alt="gatsby" width="40" height="40"/> </a>  
-<a href="https://graphql.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a>
-<a href="https://nativescript.org/" target="_blank"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/nativescript.svg" alt="nativescript" width="40" height="40"/> </a>
-<a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a>
-<a href="https://vuejs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a>
-
-</p>
-
-<h3 align="center">I sometimes do things here:</h3>
-<p align="center">
-<a href="https://www.hackerrank.com/diego_14melo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="https://www.hackerrank.com/diego_14melo" height="30" width="40" /></a>
-<a href="https://www.codewars.com/users/POWRFULCOW89" target="blank"><img align="center" src="https://cloud.githubusercontent.com/assets/2475572/4743290/2dcf20cc-5a26-11e4-89fb-62b861e5b29c.png" alt="codewars" height="32.5" width="32.5" /></a>
-<a href="https://stackoverflow.com/users/13991452" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="13991452" height="30" width="40" /></a>
-
-</p>
+<h1 align="center">Hello there 👋, I'm Diego</h1>
+<h2 align="center">A Full-Stack developer from 🇲🇽</h2>
+<div style='width: 100%; border: 1px solid gray;margin-bottom:20px; background-color:gray;'></div>
+<h2 align="center">About me</h2>
+<p align='center' style='font-size:1.2rem;' >Midnight bug squasher. Professional coffee drinker. Hobbyist human being.</p>
+<h3 align="center">Techs I ♥</h3>
+<div style="margin:1em 0;display:flex;justify-content:center;align-items:center;flex-wrap:wrap;margin:10px;"><div align='center' style="gap:10px;"><img style="" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
+<img style="" src="https://img.shields.io/badge/Chai-A30701?style=for-the-badge&logo=chai&logoColor=white">
+<img style="" src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white">
+<img style="" src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white">
+<img style="" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+<img style="" src="https://img.shields.io/badge/Firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=white">
+<img style="" src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white">
+<img style="" src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white">
+<img style="" src="https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=insomnia&logoColor=white">
+<img style="" src="https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=latex&logoColor=white">
+<img style="" src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white">
+<img style="" src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
+<img style="" src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white">
+<img style="" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
+<img style="" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=white">
+<img style="" src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=white">
+<img style="" src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white">
+<img style="" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
+<img style="" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+<img style="" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"></div></div>
+<h3 align="center">Some random numbers 📊</h3>
+<div style="margin:1em 0;display:flex;justify-content:center;align-items:center;flex-wrap:wrap;"><img style= align='center' src='https://github-readme-stats.vercel.app/api/top-langs/?username=POWRFULCOW89&layout=compact&hide=html,css,scss&langs_count=6&theme=dark&bg_color=#0d1117' alt='My most used languages' /><img style= align='center' src='https://github-readme-streak-stats.herokuapp.com/?user=POWRFULCOW89&theme=dark&background=0d1117&stroke=1e7ffe&ring=1e7ffe&fire=1e7ffe&currStreakLabel=1e7ffe' alt='Some of my work stats' /></div>
+<h3 align="center">A bit of my work 💯</h3>
+<div align='center'><a href='https://github.com/POWRFULCOW89/AttendanceTaker' target='_blank' rel='noopener noreferrer'><img align='center' src='https://github-readme-stats.vercel.app/api/pin/?username=POWRFULCOW89&repo=AttendanceTaker' alt='Link to my repo "AttendanceTaker"'/></a>,<a href='https://github.com/POWRFULCOW89/Bazaar' target='_blank' rel='noopener noreferrer'><img align='center' src='https://github-readme-stats.vercel.app/api/pin/?username=POWRFULCOW89&repo=Bazaar' alt='Link to my repo "Bazaar"'/></a>,<a href='https://github.com/POWRFULCOW89/bootcamps-latam' target='_blank' rel='noopener noreferrer'><img align='center' src='https://github-readme-stats.vercel.app/api/pin/?username=POWRFULCOW89&repo=bootcamps-latam' alt='Link to my repo "bootcamps-latam"'/></a>,<a href='https://github.com/POWRFULCOW89/batch-rename' target='_blank' rel='noopener noreferrer'><img align='center' src='https://github-readme-stats.vercel.app/api/pin/?username=POWRFULCOW89&repo=batch-rename' alt='Link to my repo "batch-rename"'/></a>,<a href='https://github.com/POWRFULCOW89/conway' target='_blank' rel='noopener noreferrer'><img align='center' src='https://github-readme-stats.vercel.app/api/pin/?username=POWRFULCOW89&repo=conway' alt='Link to my repo "conway"'/></a>,<a href='https://github.com/POWRFULCOW89/gtao-discounts-api' target='_blank' rel='noopener noreferrer'><img align='center' src='https://github-readme-stats.vercel.app/api/pin/?username=POWRFULCOW89&repo=gtao-discounts-api' alt='Link to my repo "gtao-discounts-api"'/></a>,<a href='https://github.com/POWRFULCOW89/Grocery-API' target='_blank' rel='noopener noreferrer'><img align='center' src='https://github-readme-stats.vercel.app/api/pin/?username=POWRFULCOW89&repo=Grocery-API' alt='Link to my repo "Grocery-API"'/></a>,<a href='https://github.com/POWRFULCOW89/icon_set_generator' target='_blank' rel='noopener noreferrer'><img align='center' src='https://github-readme-stats.vercel.app/api/pin/?username=POWRFULCOW89&repo=icon_set_generator' alt='Link to my repo "icon_set_generator"'/></a>,<a href='https://github.com/POWRFULCOW89/TasteU' target='_blank' rel='noopener noreferrer'><img align='center' src='https://github-readme-stats.vercel.app/api/pin/?username=POWRFULCOW89&repo=TasteU' alt='Link to my repo "TasteU"'/></a>,<a href='https://github.com/POWRFULCOW89/telly' target='_blank' rel='noopener noreferrer'><img align='center' src='https://github-readme-stats.vercel.app/api/pin/?username=POWRFULCOW89&repo=telly' alt='Link to my repo "telly"'/></a></div>
