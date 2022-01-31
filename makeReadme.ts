@@ -88,7 +88,7 @@ const finalReadme = [
   Center(Techs(), "margin:10px;"),
   //   Divider(),
   Title("Some random numbers 📊", 3),
-  Center(Widgets("languages") + Widgets("streak"), "flex-direction:column"),
+  Center(Widgets("languages") + Widgets("streak")),
   //   Divider(),
   // Title("A bit of my work 💯", 3),
   // Repos(),
