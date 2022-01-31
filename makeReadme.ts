@@ -78,7 +78,7 @@ const Repos = () => {
 const finalReadme = [
   Title("Hello there 👋, I'm Diego", 1),
   Title("A Full-Stack developer from 🇲🇽", 2),
-  Divider(),
+  // Divider(),
   Title("About me", 2),
   P(
     "Midnight bug squasher. Professional coffee drinker. Hobbyist human being."
@@ -88,7 +88,10 @@ const finalReadme = [
   Center(Techs(), "margin:10px;"),
   //   Divider(),
   Title("Some random numbers 📊", 3),
-  Center(Widgets("languages") + Widgets("streak")),
+  // Center(Widgets("languages") + Widgets("streak")),
+  `<div align='center'>${
+    Widgets("languages") + "\n" + Widgets("streak")
+  }</div>`,
   //   Divider(),
   // Title("A bit of my work 💯", 3),
   // Repos(),
