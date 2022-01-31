@@ -57,9 +57,9 @@ const Widgets = (type: string) => {
   let style = "";
   switch (type) {
     case "languages":
-      return `<img style=${style} align='center' src='https://github-readme-stats.vercel.app/api/top-langs/?username=POWRFULCOW89&layout=compact&hide=html,css,scss&langs_count=6&theme=dark&bg_color=#${bgColor}' alt='My most used languages' />`;
+      return `<img style=${style} align='center' src='https://github-readme-stats.vercel.app/api/top-langs/?username=POWRFULCOW89&layout=compact&hide=html,css,scss&langs_count=6&theme=dark&bg_color=#${bgColor}&hide_border=true' alt='My most used languages' />`;
     case "streak":
-      return `<img style=${style} align='center' src='https://github-readme-streak-stats.herokuapp.com/?user=POWRFULCOW89&theme=dark&background=${bgColor}&stroke=${color}&ring=${color}&fire=${color}&currStreakLabel=${color}' alt='Some of my work stats' />`;
+      return `<img style=${style} align='center' src='https://github-readme-streak-stats.herokuapp.com/?user=POWRFULCOW89&theme=dark&background=${bgColor}&stroke=${color}&ring=${color}&fire=${color}&currStreakLabel=${color}&hide_border=true' alt='Some of my work stats' />`;
     default:
       return "";
   }
