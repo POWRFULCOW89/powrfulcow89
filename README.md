@@ -6,6 +6,7 @@
 <div style="display:flex;justify-content:center;align-items:center;flex-wrap:wrap;margin:10px;"><div align='center' style="gap:10px;"><img style="" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
 <img style="" src="https://img.shields.io/badge/Chai-A30701?style=for-the-badge&logo=chai&logoColor=white">
 <img style="" src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white">
+<img style="" src="https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37"/>
 <img style="" src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white">
 <img style="" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
 <img style="" src="https://img.shields.io/badge/Firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=white">
