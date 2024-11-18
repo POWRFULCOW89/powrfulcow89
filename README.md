@@ -1,5 +1,4 @@
-<h1 align="center">Hello there 👋, I'm Diego</h1>
-<h2 align="center">A Full-Stack developer from 🇲🇽</h2>
+<h1 align="center">Hello there 👋, I'm a Full-Stack developer</h1>
 <h2 align="center">About me</h2>
 <p align='center' style='font-size:1.2rem;' >Midnight bug squasher. Professional coffee drinker. Hobbyist human being.</p>
 <h3 align="center">Techs I ♥</h3>
